@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		526EACF9210E8E9900A618B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EACF8210E8E9900A618B2 /* AppDelegate.swift */; };
+		526EACFB210E8E9900A618B2 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EACFA210E8E9900A618B2 /* CategoryViewController.swift */; };
+		526EACFE210E8E9900A618B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526EACFC210E8E9900A618B2 /* Main.storyboard */; };
+		526EAD00210E8EBD00A618B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526EACFF210E8EBD00A618B2 /* Assets.xcassets */; };
+		526EAD03210E8EBD00A618B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526EAD01210E8EBD00A618B2 /* LaunchScreen.storyboard */; };
+		526EAD0D210E91EF00A618B2 /* icon-toy.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EAD0C210E91EF00A618B2 /* icon-toy.png */; };
+		526EAD0F210E95B900A618B2 /* icon-electronics.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EAD0E210E95B800A618B2 /* icon-electronics.png */; };
+		526EAD11210E966600A618B2 /* icon-handbag.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EAD10210E966600A618B2 /* icon-handbag.png */; };
+		526EAD15210EA19700A618B2 /* icon-toys2.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EAD14210EA19700A618B2 /* icon-toys2.png */; };
+		526EAD17210EA22300A618B2 /* icon-toys3.png in Resources */ = {isa = PBXBuildFile; fileRef = 526EAD16210EA22300A618B2 /* icon-toys3.png */; };
+		526EAD1D2112A3AA00A618B2 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EAD1C2112A3AA00A618B2 /* ProductsViewController.swift */; };
+		526EAD2121173BF500A618B2 /* ToysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EAD2021173BF500A618B2 /* ToysViewController.swift */; };
+		526EAD23211D1FC800A618B2 /* PlayerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EAD22211D1FC800A618B2 /* PlayerClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		526EACF5210E8E9900A618B2 /* ThinkRiot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkRiot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		526EACF8210E8E9900A618B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		526EACFA210E8E9900A618B2 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		526EACFD210E8E9900A618B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		526EACFF210E8EBD00A618B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		526EAD02210E8EBD00A618B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		526EAD04210E8EBD00A618B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526EAD0C210E91EF00A618B2 /* icon-toy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-toy.png"; path = "../../../icon-toy.png"; sourceTree = "<group>"; };
+		526EAD0E210E95B800A618B2 /* icon-electronics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-electronics.png"; path = "../../../icon-electronics.png"; sourceTree = "<group>"; };
+		526EAD10210E966600A618B2 /* icon-handbag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-handbag.png"; path = "../../../icon-handbag.png"; sourceTree = "<group>"; };
+		526EAD14210EA19700A618B2 /* icon-toys2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-toys2.png"; sourceTree = SOURCE_ROOT; };
+		526EAD16210EA22300A618B2 /* icon-toys3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-toys3.png"; sourceTree = SOURCE_ROOT; };
+		526EAD1C2112A3AA00A618B2 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		526EAD2021173BF500A618B2 /* ToysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToysViewController.swift; sourceTree = "<group>"; };
+		526EAD22211D1FC800A618B2 /* PlayerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526EACF2210E8E9900A618B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526EACEC210E8E9900A618B2 = {
+			isa = PBXGroup;
+			children = (
+				526EAD0A210E91D400A618B2 /* Resources */,
+				526EACF7210E8E9900A618B2 /* ThinkRiot */,
+				526EACF6210E8E9900A618B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		526EACF6210E8E9900A618B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				526EACF5210E8E9900A618B2 /* ThinkRiot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		526EACF7210E8E9900A618B2 /* ThinkRiot */ = {
+			isa = PBXGroup;
+			children = (
+				526EACF8210E8E9900A618B2 /* AppDelegate.swift */,
+				526EACFA210E8E9900A618B2 /* CategoryViewController.swift */,
+				526EACFC210E8E9900A618B2 /* Main.storyboard */,
+				526EAD1C2112A3AA00A618B2 /* ProductsViewController.swift */,
+				526EACFF210E8EBD00A618B2 /* Assets.xcassets */,
+				526EAD01210E8EBD00A618B2 /* LaunchScreen.storyboard */,
+				526EAD04210E8EBD00A618B2 /* Info.plist */,
+				526EAD2021173BF500A618B2 /* ToysViewController.swift */,
+				526EAD22211D1FC800A618B2 /* PlayerClass.swift */,
+			);
+			path = ThinkRiot;
+			sourceTree = "<group>";
+		};
+		526EAD0A210E91D400A618B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				526EAD0B210E91DD00A618B2 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		526EAD0B210E91DD00A618B2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				526EAD16210EA22300A618B2 /* icon-toys3.png */,
+				526EAD14210EA19700A618B2 /* icon-toys2.png */,
+				526EAD10210E966600A618B2 /* icon-handbag.png */,
+				526EAD0E210E95B800A618B2 /* icon-electronics.png */,
+				526EAD0C210E91EF00A618B2 /* icon-toy.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		526EACF4210E8E9900A618B2 /* ThinkRiot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526EAD07210E8EBD00A618B2 /* Build configuration list for PBXNativeTarget "ThinkRiot" */;
+			buildPhases = (
+				526EACF1210E8E9900A618B2 /* Sources */,
+				526EACF2210E8E9900A618B2 /* Frameworks */,
+				526EACF3210E8E9900A618B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinkRiot;
+			productName = ThinkRiot;
+			productReference = 526EACF5210E8E9900A618B2 /* ThinkRiot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		526EACED210E8E9900A618B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = LittlelinkInc;
+				TargetAttributes = {
+					526EACF4210E8E9900A618B2 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 526EACF0210E8E9900A618B2 /* Build configuration list for PBXProject "ThinkRiot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 526EACEC210E8E9900A618B2;
+			productRefGroup = 526EACF6210E8E9900A618B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				526EACF4210E8E9900A618B2 /* ThinkRiot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526EACF3210E8E9900A618B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526EAD15210EA19700A618B2 /* icon-toys2.png in Resources */,
+				526EAD17210EA22300A618B2 /* icon-toys3.png in Resources */,
+				526EAD03210E8EBD00A618B2 /* LaunchScreen.storyboard in Resources */,
+				526EAD0F210E95B900A618B2 /* icon-electronics.png in Resources */,
+				526EAD0D210E91EF00A618B2 /* icon-toy.png in Resources */,
+				526EAD00210E8EBD00A618B2 /* Assets.xcassets in Resources */,
+				526EAD11210E966600A618B2 /* icon-handbag.png in Resources */,
+				526EACFE210E8E9900A618B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526EACF1210E8E9900A618B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526EACFB210E8E9900A618B2 /* CategoryViewController.swift in Sources */,
+				526EAD2121173BF500A618B2 /* ToysViewController.swift in Sources */,
+				526EAD1D2112A3AA00A618B2 /* ProductsViewController.swift in Sources */,
+				526EAD23211D1FC800A618B2 /* PlayerClass.swift in Sources */,
+				526EACF9210E8E9900A618B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		526EACFC210E8E9900A618B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526EACFD210E8E9900A618B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		526EAD01210E8EBD00A618B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526EAD02210E8EBD00A618B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		526EAD05210E8EBD00A618B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		526EAD06210E8EBD00A618B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526EAD08210E8EBD00A618B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThinkRiot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.littlelink.ThinkRiot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		526EAD09210E8EBD00A618B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ThinkRiot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.littlelink.ThinkRiot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		526EACF0210E8E9900A618B2 /* Build configuration list for PBXProject "ThinkRiot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526EAD05210E8EBD00A618B2 /* Debug */,
+				526EAD06210E8EBD00A618B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526EAD07210E8EBD00A618B2 /* Build configuration list for PBXNativeTarget "ThinkRiot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526EAD08210E8EBD00A618B2 /* Debug */,
+				526EAD09210E8EBD00A618B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 526EACED210E8E9900A618B2 /* Project object */;
+}
