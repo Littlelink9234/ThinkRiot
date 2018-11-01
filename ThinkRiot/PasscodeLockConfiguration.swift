@@ -7,8 +7,8 @@
 //
 
 import Foundation
-import PasscodeLock
-
+//import PasscodeLock
+/*
 struct PasscodeLockConfiguration: PasscodeLockConfigurationType {
     
     let repository: PasscodeRepositoryType
@@ -26,3 +26,4 @@ struct PasscodeLockConfiguration: PasscodeLockConfigurationType {
         
     }
 }
+*/

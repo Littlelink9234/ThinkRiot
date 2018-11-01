@@ -7,8 +7,8 @@
 //
 
 import Foundation
-import PasscodeLock
-
+//import PasscodeLock
+/*
 class UserDefaultsPasscodeRepository: PasscodeRepositoryType {
     private let passcodeKey = "passcode.lock.passcode"
     private lazy var defaults: UserDefaults = {
@@ -37,3 +37,4 @@ class UserDefaultsPasscodeRepository: PasscodeRepositoryType {
         defaults.synchronize()
     }
 }
+*/

@@ -19,13 +19,12 @@ class CategoryViewController: UIViewController {
 //        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Authenticate", style: .plain, target: self, action: #selector(setAuthentication))
     }
 
-    @IBAction func setAuth(_ sender: Any) {
-        print("did this work?")
-//        let configuration = PasscodeLockConfiguration()
-//        
-//        let passcodeViewController = PasscodeLockViewController(state: .SetPasscode, configuration: configuration)
-//        
-//        present(passcodeViewController, animated: true, completion: nil)
+    @IBAction func setAuth() {
+        //let configuration = PasscodeLockConfiguration()
+        
+        //let passcodeViewController = PasscodeLockViewController(state: .SetPasscode, configuration: configuration)
+        
+        //present(passcodeViewController, animated: true, completion: nil)
         
     }
     override func didReceiveMemoryWarning() {

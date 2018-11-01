@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		391329695FE8057B29C2122A /* Pods_ThinkRiot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F87B3DF6D7C9DDB8F0C38A /* Pods_ThinkRiot.framework */; };
 		526EACF9210E8E9900A618B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EACF8210E8E9900A618B2 /* AppDelegate.swift */; };
 		526EACFB210E8E9900A618B2 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EACFA210E8E9900A618B2 /* CategoryViewController.swift */; };
 		526EACFE210E8E9900A618B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526EACFC210E8E9900A618B2 /* Main.storyboard */; };
@@ -23,10 +22,10 @@
 		526EAD23211D1FC800A618B2 /* PlayerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526EAD22211D1FC800A618B2 /* PlayerClass.swift */; };
 		529F268E217026B500E4F673 /* PasscodeLockConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F268D217026B500E4F673 /* PasscodeLockConfiguration.swift */; };
 		529F269621702CD400E4F673 /* UserDefaultsPasscodeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F269521702CD400E4F673 /* UserDefaultsPasscodeRepository.swift */; };
-		52E066BF216C4F25008CCB27 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E066BE216C4F25008CCB27 /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EBEA58C424EC0FC7DBA06AD /* Pods-ThinkRiot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkRiot.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkRiot/Pods-ThinkRiot.release.xcconfig"; sourceTree = "<group>"; };
 		526EACF5210E8E9900A618B2 /* ThinkRiot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkRiot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526EACF8210E8E9900A618B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		526EACFA210E8E9900A618B2 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
@@ -45,9 +44,7 @@
 		529F268D217026B500E4F673 /* PasscodeLockConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeLockConfiguration.swift; sourceTree = "<group>"; };
 		529F269521702CD400E4F673 /* UserDefaultsPasscodeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsPasscodeRepository.swift; sourceTree = "<group>"; };
 		52E066BE216C4F25008CCB27 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
-		A3F87B3DF6D7C9DDB8F0C38A /* Pods_ThinkRiot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThinkRiot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D64A7E0CF5E9E9D71C0DA6E3 /* Pods-ThinkRiot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkRiot.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkRiot/Pods-ThinkRiot.release.xcconfig"; sourceTree = "<group>"; };
-		F33BF2A5F427B6AAB3210C3E /* Pods-ThinkRiot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkRiot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkRiot/Pods-ThinkRiot.debug.xcconfig"; sourceTree = "<group>"; };
+		BF8C12CCCFC1CB45C0DB0830 /* Pods-ThinkRiot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkRiot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkRiot/Pods-ThinkRiot.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E066BF216C4F25008CCB27 /* LocalAuthentication.framework in Frameworks */,
-				391329695FE8057B29C2122A /* Pods_ThinkRiot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +65,7 @@
 				526EACF7210E8E9900A618B2 /* ThinkRiot */,
 				526EACF6210E8E9900A618B2 /* Products */,
 				52E0669D216C48B1008CCB27 /* Frameworks */,
-				C60BF2ED830D0D747F08B860 /* Pods */,
+				CF8923620AB31C6DEF857BA7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,16 +119,15 @@
 			isa = PBXGroup;
 			children = (
 				52E066BE216C4F25008CCB27 /* LocalAuthentication.framework */,
-				A3F87B3DF6D7C9DDB8F0C38A /* Pods_ThinkRiot.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C60BF2ED830D0D747F08B860 /* Pods */ = {
+		CF8923620AB31C6DEF857BA7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F33BF2A5F427B6AAB3210C3E /* Pods-ThinkRiot.debug.xcconfig */,
-				D64A7E0CF5E9E9D71C0DA6E3 /* Pods-ThinkRiot.release.xcconfig */,
+				BF8C12CCCFC1CB45C0DB0830 /* Pods-ThinkRiot.debug.xcconfig */,
+				4EBEA58C424EC0FC7DBA06AD /* Pods-ThinkRiot.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -145,11 +139,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 526EAD07210E8EBD00A618B2 /* Build configuration list for PBXNativeTarget "ThinkRiot" */;
 			buildPhases = (
-				28CEB0D9A3816AAA73F786C8 /* [CP] Check Pods Manifest.lock */,
+				035EF28E50EBAA156BB5DB96 /* [CP] Check Pods Manifest.lock */,
 				526EACF1210E8E9900A618B2 /* Sources */,
 				526EACF2210E8E9900A618B2 /* Frameworks */,
 				526EACF3210E8E9900A618B2 /* Resources */,
-				37FDFEC6DDA9D865BC7A30C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,7 +160,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = LittlelinkInc;
 				TargetAttributes = {
 					526EACF4210E8E9900A618B2 = {
@@ -212,7 +205,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		28CEB0D9A3816AAA73F786C8 /* [CP] Check Pods Manifest.lock */ = {
+		035EF28E50EBAA156BB5DB96 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,28 +225,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		37FDFEC6DDA9D865BC7A30C4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ThinkRiot/Pods-ThinkRiot-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PasscodeLock/PasscodeLock.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PasscodeLock.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThinkRiot/Pods-ThinkRiot-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -411,7 +382,7 @@
 		};
 		526EAD08210E8EBD00A618B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F33BF2A5F427B6AAB3210C3E /* Pods-ThinkRiot.debug.xcconfig */;
+			baseConfigurationReference = BF8C12CCCFC1CB45C0DB0830 /* Pods-ThinkRiot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -433,7 +404,7 @@
 		};
 		526EAD09210E8EBD00A618B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D64A7E0CF5E9E9D71C0DA6E3 /* Pods-ThinkRiot.release.xcconfig */;
+			baseConfigurationReference = 4EBEA58C424EC0FC7DBA06AD /* Pods-ThinkRiot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
